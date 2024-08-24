@@ -1,6 +1,6 @@
 {
   "name": "delottie",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "A CLI tool to optimize lottie files",
   "main": "index.js",
   "bin": {
@@ -21,6 +21,6 @@
     "cli",
     "json"
   ],
-  "author": "Your Name",
+  "author": "stefnnn",
   "license": "MIT"
 }
