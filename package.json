@@ -1,0 +1,26 @@
+{
+  "name": "delottie",
+  "version": "1.0.0",
+  "description": "A CLI tool to optimize lottie files",
+  "main": "index.js",
+  "bin": {
+    "delottie": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "node index.js -c -z test/test-lottie.json"
+  },
+  "dependencies": {
+    "@dotlottie/dotlottie-js": "^0.8.1",
+    "archiver": "^7.0.1",
+    "fs-extra": "^10.0.0",
+    "yargs": "^17.7.2"
+  },
+  "keywords": [
+    "lottie",
+    "cli",
+    "json"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
