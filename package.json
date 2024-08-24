@@ -1,7 +1,12 @@
 {
   "name": "delottie",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A CLI tool to optimize lottie files",
+  "homepage": "https://github.com/stefnnn/delottie#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stefnnn/delottie.git"
+  },
   "main": "index.js",
   "bin": {
     "delottie": "./index.js"
@@ -19,7 +24,10 @@
   "keywords": [
     "lottie",
     "cli",
-    "json"
+    "dotlottie",
+    "animations",
+    "watermark",
+    "zip"
   ],
   "author": "stefnnn",
   "license": "MIT"
